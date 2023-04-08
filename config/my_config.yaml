@@ -1,0 +1,13 @@
+#INITIAL SETTINGS
+env: MsPacman-v0  
+render_mode: human
+full_action_space: False
+repeat_action_probability: 0
+
+#Training parameters
+model: PPO # A2C
+total_timesteps: 1000000
+checkpoint_freq: 10000
+
+
+
